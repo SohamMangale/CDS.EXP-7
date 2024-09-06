@@ -9,12 +9,19 @@ Vs code
 Comparison Table between arrays and strings
 Feature	Array	String
 ### Definition-	A collection of elements of the same type stored in contiguous memory locations.	Sequences of characters used to represent text. Designed for textual data.
+
 *Size- Size can be fixed or dynamic based on the language (e.g., static in C, dynamic in Python).	Size is dynamic and adjusts with the length of the text.
+
 *Mutability-	Usually mutable; elements can be changed after the array is created.	Generally immutable; modifying a string creates a new one rather than altering the original.
+
 *Access-	Accessed via indices.	Characters accessed via indices; includes built-in methods for manipulation.
+
 *Operations-	Support various operations like sorting, searching, and element manipulation.	Support operations like concatenation, substring extraction, and text formatting.
+
 *Memory Allocation-	Typically allocated with a fixed size and contiguous memory.	Memory allocation can be variable and managed dynamically based on string length and encoding. 
+
 *Indexing-	Elements are accessed via numerical indices (e.g., arr[0]).	Characters are accessed via numerical indices (e.g., str[0]).
+
 Data Type	Can hold multiple data types depending on the language (e.g., integers, floats, objects).	Specifically hold text data (characters).
 Use Cases	Used for storing and processing collections of related data (e.g., lists of numbers, objects).	used for handling and manipulating textual data(e.g., user imput, file content
 
